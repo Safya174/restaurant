@@ -908,20 +908,20 @@ figcaption .button-size{
     text-align: center;
   }
   .content-menu{
-    width: 50%;
+    width: 100%;
     margin-left: 20px;
     padding-top: 20px;
   }
   .content-menu h2{
   font-family: Oswald;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   color: white;
   margin-bottom: 0;
 }
 .content-menu p{
   font-family: Oswald;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   color:var(--maincolor);
 }
@@ -934,7 +934,7 @@ figcaption .button-size{
 }
 .content-menu span{
   font-family: Oswald;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   color:white;
 }
