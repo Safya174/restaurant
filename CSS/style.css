@@ -623,16 +623,18 @@ figcaption .button-size{
   color:var(--maincolor); 
   font-weight: bold;
 }
-.btn-categry{
-  width: 159px;
-  height:59px ;
+.btn-categry {
+  padding: 12px 24px;          
+  min-width: 120px;
   border-radius: 27px;
-  border: #D9D9D9 solid 2px;
-  transition:1s all ;
-  font-size: 18px; 
-  font-family:Oswald ;
+  border: 2px solid #D9D9D9;
+  transition: 0.3s ease;
+  font-size: 18px;
+  font-family: Oswald;
   font-weight: bold;
+  white-space: nowrap;
 }
+
 .btn-categry:hover{
   border: 0;
   background-color: var(--maincolor);
@@ -1059,6 +1061,12 @@ figcaption .button-size{
   .order p {
     font-size: 14px;      
     line-height: 1.2;
+  }
+  .btn-categry {
+    font-size: 14px;
+    padding: 10px 18px;
+    min-width: 100px;
+    
   }
  
  
