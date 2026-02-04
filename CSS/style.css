@@ -495,7 +495,7 @@ figcaption .button-size{
   color: #212121;
 
 }
-.col-md-bg,.col-md-bg1,.bg-row{
+.col-md-bg,.bg-row{
   background-image: url('../imges/Background\(2\).png');
   height: 300px;
   background-size: cover;
@@ -504,10 +504,7 @@ figcaption .button-size{
   border-radius:10px;
 
 }
-.col-md-bg1{
-  background-image: url('../imges/Background\ \(1\).png');
 
-}
 .bg-row{
   background-image: url('../imges/Section.png');
   height: 100vh;
@@ -833,7 +830,7 @@ figcaption .button-size{
   }
 
   .our-content {
-    width: 100%;
+    width: 50%;
     text-align: center;
   }
 
@@ -908,7 +905,7 @@ figcaption .button-size{
     text-align: center;
   }
   .content-menu{
-    width: 100%;
+    width: 50%;
     margin-left: 20px;
     padding-top: 20px;
   }
@@ -945,7 +942,12 @@ figcaption .button-size{
 .button-style{
   display: none;
 }
+  .bg-row {
+    min-height: auto;
+    padding: 60px 15px;
+    background-size: cover;
   
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
