@@ -59,6 +59,7 @@ html,body{
   background-color: transparent;
   color: white;
   border: 2px white solid;
+  margin-left: 20px;
 }
 .button-style1{
   margin-top: 20px;
@@ -763,10 +764,10 @@ figcaption .button-size{
 
 @media only screen and (max-width: 575px) {
   .style-head{
-    font-size: 25px;
+    font-size: 20px;
   }
   .p{
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 10px;
   }
   .content{
@@ -779,6 +780,10 @@ figcaption .button-size{
   font-weight: bold;
 
 }
+.button-style1  .button2{
+  margin-top: 20px;
+  margin-left: 0;
+}
  .content-sec1 .p-1{
   font-family: var(--mainfontoftext);
   font-size:18px;
@@ -786,7 +791,7 @@ figcaption .button-size{
   margin-top: 20px;
 }
 .cat{
-  width: 400px;
+  width: 300px;
   margin: auto;
 }
 .cat  h4{
@@ -805,11 +810,18 @@ figcaption .button-size{
   margin-top: 20px;
 }
 .card{
-  width: 400px;
+  width: 300px;
   height: 300px;
   
   
 }
+.buttons{
+  margin-top: 20px;
+}
+.sec-content .h2-sec{
+  font-size: 30px;
+}
+
  .bg-cont-ourvision {
     height: auto;
     padding: 40px 15px;
@@ -925,7 +937,9 @@ figcaption .button-size{
   background-size: contain;
   min-height: 100vh;
 }
-
+.button-style{
+  display: none;
+}
   
 }
 
