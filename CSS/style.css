@@ -865,15 +865,18 @@ figcaption .button-size{
   .p2-2 {
     display: none;
   }
-  .imgs {
-    position: static;
+   .imgs {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin-top: 30px;
+    gap: 10px;
   }
 
+  .imgs img {
+    width: 45%;
+    height: auto;
+  }
+
+}
  
 
   .transform {
