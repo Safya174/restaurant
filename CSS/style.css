@@ -802,7 +802,7 @@ figcaption .button-size{
 }
 .cat  p{
    color: white;
-   font-size: 12px;
+   font-size: 10px;
    font-family: var(--mainfontoftext);
 }
 .m{
@@ -823,6 +823,7 @@ figcaption .button-size{
 }
 .bg{
   margin: auto;
+  width: auto;
 }
 
  .bg-cont-ourvision {
@@ -858,6 +859,7 @@ figcaption .button-size{
   .button1 {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .p2-2 {
