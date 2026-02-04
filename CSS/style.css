@@ -874,11 +874,7 @@ figcaption .button-size{
     margin-top: 30px;
   }
 
-  .imgs img {
-    width: 85%;
-    max-width: 260px;
-   
-  }
+ 
 
   .transform {
     transform: none;
