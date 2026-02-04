@@ -791,18 +791,18 @@ figcaption .button-size{
   margin-top: 20px;
 }
 .cat{
-  width: 300px;
+  width: auto;
   margin: auto;
 }
 .cat  h4{
    color: white;
-   font-size: 30px;
+   font-size: 25px;
    font-family: var(--mainfontoftext);
    
 }
 .cat  p{
    color: white;
-   font-size: 15px;
+   font-size: 12px;
    font-family: var(--mainfontoftext);
 }
 .m{
@@ -810,8 +810,8 @@ figcaption .button-size{
   margin-top: 20px;
 }
 .card{
-  width: 300px;
-  height: 300px;
+  width: auto;
+  height: auto;
   
   
 }
@@ -819,7 +819,10 @@ figcaption .button-size{
   margin-top: 20px;
 }
 .sec-content .h2-sec{
-  font-size: 30px;
+  font-size: 40px;
+}
+.bg{
+  margin: auto;
 }
 
  .bg-cont-ourvision {
