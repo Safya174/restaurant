@@ -938,10 +938,10 @@ figcaption .button-size{
   font-weight: bold;
   color:white;
 }
-.img-bg{
-  background-size: contain;
-  min-height: 100vh;
-}
+.img-bg {
+    min-height: auto;
+    padding: 60px 15px;
+  }
 .button-style{
   display: none;
 }
