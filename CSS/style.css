@@ -950,14 +950,12 @@ figcaption .button-size{
     background-size: cover;
   
   }
-  .smail-div{
-    width: auto;
+   .min-div {
+    margin: 20px auto !important;
+    text-align: center !important;
+     
+   
   }
-   .min-div{
-    width: auto;
-    margin: auto;
-    
-   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
