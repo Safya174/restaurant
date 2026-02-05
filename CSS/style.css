@@ -763,15 +763,16 @@ figcaption .button-size{
 
 @media only screen and (max-width: 575px) {
   .style-head{
-    font-size: 20px;
+    font-size: 25px;
+    font-family:Poppins ;
   }
   .p{
     font-size: 10px;
     margin-top: 10px;
+    font-family: 'open Sans';
   }
   .content{
-    width: 100%;
-    
+    width: auto;   
   }
   .content-sec1 h2{
   font-family: var(--mainfontoftext);
@@ -779,9 +780,17 @@ figcaption .button-size{
   font-weight: bold;
 
 }
+.button-style1  .button1{
+   width: 120px;
+   height: 40px;
+   border-radius: 20px;
+ 
+}
 .button-style1  .button2{
-  margin-top: 20px;
-  margin-left: 0;
+   width: 120px;
+   height: 40px;
+   border-radius: 20px;
+ 
 }
  .content-sec1 .p-1{
   font-family: var(--mainfontoftext);
@@ -955,6 +964,12 @@ figcaption .button-size{
     text-align: center !important;
      
    
+  }
+  .p2{
+    display: none;
+  }
+  .button1 .button{
+    width: 100%;
   }
 }
 
